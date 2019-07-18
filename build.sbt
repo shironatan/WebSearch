@@ -1,20 +1,29 @@
+import scala.util.Properties
 name := "spark-simple-app6"
 version := "0.1"
 scalaVersion := "2.10.4"
 val sparkVersion = "1.5.0"
 val sparkDependencyScope = "provided"
+
 libraryDependencies ++= Seq(
-  "org.apache.spark" % "spark-core_2.10" % "1.5.0" % "provided",
-  "joda-time" % "joda-time" % "2.8.2",
-  "org.apache.spark" %% "spark-core" % sparkVersion % sparkDependencyScope,
-  "org.apache.spark" %% "spark-streaming" % sparkVersion % sparkDependencyScope,
-  "org.apache.spark" %% "spark-streaming-kafka" % "1.5.0")
+	"org.apache.spark" %% "spark-core" % sparkVersion % sparkDependencyScope,
+	"org.apache.spark" %% "spark-streaming" % sparkVersion % sparkDependencyScope,
+	"org.apache.spark" %% "spark-streaming-kafka" % "1.5.0",
+	"joda-time" % "joda-time" % "2.8.2",
+	"net.liftweb" %% "lift-json" % "2.5.1",
+	"com.github.seratch" % "ltsv4s_2.10" % "1.0.+"
+)
 
 assemblyMergeStrategy in assembly := {
-  case m if m.toLowerCase.endsWith("manifest.mf")          => MergeStrategy.discard
-  case m if m.toLowerCase.matches("meta-inf.*\\.sf$")      => MergeStrategy.discard
-  case "log4j.properties"                                  => MergeStrategy.discard
-  case m if m.toLowerCase.startsWith("meta-inf/services/") => MergeStrategy.filterDistinctLines
-  case "reference.conf"                                    => MergeStrategy.concat
-  case _                                                   => MergeStrategy.first
+  case PathList("javax", "servlet", xs @ _*)         => MergeStrategy.first
+  case PathList(ps @ _*) if ps.last endsWith ".properties" => MergeStrategy.first
+  case PathList(ps @ _*) if ps.last endsWith ".xml" => MergeStrategy.first
+  case PathList(ps @ _*) if ps.last endsWith ".types" => MergeStrategy.first
+  case PathList(ps @ _*) if ps.last endsWith ".class" => MergeStrategy.first
+  case "log4j.properties" => MergeStrategy.discard
+  case "application.conf"                            => MergeStrategy.concat
+  case "unwanted.txt"                                => MergeStrategy.discard
+  case x =>
+    val oldStrategy = (assemblyMergeStrategy in assembly).value
+    oldStrategy(x)
 }

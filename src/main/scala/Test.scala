@@ -1,10 +1,15 @@
 package com.test.spark
-import org.apache.spark.{SparkContext,SparkConf}
-import org.apache.spark.streaming.{Milliseconds,StreamingContext}
+import java.util.Date
+import java.util.Calendar
+import org.apache.kafka.clients.producer.{KafkaProducer, ProducerConfig, ProducerRecord}
+import org.apache.spark.SparkConf
+import org.apache.spark.streaming._
+import org.apache.spark.streaming.kafka._
 import org.apache.spark.storage.StorageLevel
 import org.apache.log4j.{Level,Logger}
-import org.apache.spark.streaming.kafka._
-import org.apache.spark.streaming.kafka.KafkaUtils
+import net.liftweb._
+import net.liftweb.json._
+import com.github.seratch.ltsv4s._
 
 object KafkaWorker{
 	def main(args: Array[String]){
@@ -15,14 +20,43 @@ object KafkaWorker{
 		val Array(zkQuorum, topics) = args
 		Logger.getRootLogger.setLevel(Level.WARN)
 		val sparkConf = new SparkConf().setAppName("KafkaWorker")
-		val sc = new SparkContext(sparkConf)
-		val ssc = new StreamingContext(sc, Milliseconds(5000))
-		ssc.checkpoint("/path/to/file/checkpoint")
+		val ssc = new StreamingContext(sparkConf,Milliseconds(5000))
 		val kafkaStream = KafkaUtils.createStream(ssc,zkQuorum,"default",Map(topics -> 1))
-		kafkaStream.print()
+		// val kafkaRDD = kafkaStream.map{case (null, value) => (value,1)}
 
+		// parse topic
+		val ParseRDD = kafkaStream.map{case (null,value) => parseTopic(value)}
+		//val ParseRDD = kafkaStream.map{case (null,value) => convertFluentToMap(value)}
+		val kafkaRDD = ParseRDD.map((_, 1)).reduceByKey(_ + _)
+		//println(kafkaRDD)
+		kafkaRDD.print()
+		ssc.checkpoint("/path/to/file/checkpoint")
+
+		// 表示
+		//kafkaRDD.foreachRDD { rdd =>
+		//	println("##Start %s ###".format(Calendar.getInstance.getTime.toString))
+		//	rdd.foreach(print)
+		//}
 		ssc.start()
 		ssc.awaitTermination()
 	}
+	// 
+	case class FluentEvent(domain: String, host: String, server: String, ident: String, user: String, method: String, path: String, protocol: String, status: String, size: String, referer: String, agent: String, response_time: String, cookie: String, set_cookie: String)
+	// parse
+	//def parseNginxLtsv(record: String) = { LTSV.parseLine(record) }
+
+	// json
+	implicit val formats = DefaultFormats
+	// parse topic
+	def parseTopic(record: String) ={
+		var method = parse(record).extract[FluentEvent].method
+		var host = parse(record).extract[FluentEvent].host
+		method
+	}
+
+	// map
+	//def convertFluentToMap(record: String) = {
+	//	parseMethod(record)
+	//	parseHost(record)
+	//}
 }
-		
