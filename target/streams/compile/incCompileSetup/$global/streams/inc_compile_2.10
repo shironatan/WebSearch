@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /home/shimo/spark-simple-app6/target/scala-2.10/classes
+output dir -> /home/shimo/WebSearch/target/scala-2.10/classes
 compile options:
 0 items
 javac options:
@@ -20,16 +20,16 @@ name hashing:
 0 -> true
 products:
 2 items
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /home/shimo/spark-simple-app6/target/scala-2.10/classes/com/test/spark/KafkaWorker$.class
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /home/shimo/spark-simple-app6/target/scala-2.10/classes/com/test/spark/KafkaWorker.class
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /home/shimo/WebSearch/target/scala-2.10/classes/com/test/spark/KafkaWorker$.class
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /home/shimo/WebSearch/target/scala-2.10/classes/com/test/spark/KafkaWorker.class
 binary dependencies:
 6 items
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.0.jar
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.5.0.jar
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.5.0.jar
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.0.jar
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.5.0.jar
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.5.0.jar
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /home/shimo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/home/shimo/WebSearch/src/main/scala/Test.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -48,80 +48,80 @@ inheritance external dependencies:
 0 items
 class names:
 2 items
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> com.test.spark.KafkaWorker
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> com.test.spark.KafkaWorker$
+/home/shimo/WebSearch/src/main/scala/Test.scala -> com.test.spark.KafkaWorker
+/home/shimo/WebSearch/src/main/scala/Test.scala -> com.test.spark.KafkaWorker$
 used names:
 63 items
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> !=
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> &&
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> ->
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> <
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> <init>
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> ==
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> AnyRef
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> Array
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> KafkaUtils
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> KafkaWorker
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> Level
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> Logger
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> Map
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> Milliseconds
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> Predef
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> SparkConf
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> SparkContext
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> StorageLevel
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> StreamingContext
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> String
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> System
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> Unit
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> WARN
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> _1
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> _2
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> any2ArrowAssoc
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> apache
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> apply
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> args
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> awaitTermination
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> checkpoint
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> com
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> createStream
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> exit
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> get
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> getRootLogger
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> isEmpty
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> java
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> kafka
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> kafkaStream
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> lang
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> length
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> lengthCompare
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> log4j
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> org
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> print
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> println
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> sc
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> scala
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> setAppName
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> setLevel
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> spark
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> sparkConf
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> ssc
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> start
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> storage
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> streaming
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> test
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> topics
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> unapplySeq
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> unary_!
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> unchecked
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> zkQuorum
+/home/shimo/WebSearch/src/main/scala/Test.scala -> !=
+/home/shimo/WebSearch/src/main/scala/Test.scala -> &&
+/home/shimo/WebSearch/src/main/scala/Test.scala -> ->
+/home/shimo/WebSearch/src/main/scala/Test.scala -> <
+/home/shimo/WebSearch/src/main/scala/Test.scala -> <init>
+/home/shimo/WebSearch/src/main/scala/Test.scala -> ==
+/home/shimo/WebSearch/src/main/scala/Test.scala -> AnyRef
+/home/shimo/WebSearch/src/main/scala/Test.scala -> Array
+/home/shimo/WebSearch/src/main/scala/Test.scala -> KafkaUtils
+/home/shimo/WebSearch/src/main/scala/Test.scala -> KafkaWorker
+/home/shimo/WebSearch/src/main/scala/Test.scala -> Level
+/home/shimo/WebSearch/src/main/scala/Test.scala -> Logger
+/home/shimo/WebSearch/src/main/scala/Test.scala -> Map
+/home/shimo/WebSearch/src/main/scala/Test.scala -> Milliseconds
+/home/shimo/WebSearch/src/main/scala/Test.scala -> Predef
+/home/shimo/WebSearch/src/main/scala/Test.scala -> SparkConf
+/home/shimo/WebSearch/src/main/scala/Test.scala -> SparkContext
+/home/shimo/WebSearch/src/main/scala/Test.scala -> StorageLevel
+/home/shimo/WebSearch/src/main/scala/Test.scala -> StreamingContext
+/home/shimo/WebSearch/src/main/scala/Test.scala -> String
+/home/shimo/WebSearch/src/main/scala/Test.scala -> System
+/home/shimo/WebSearch/src/main/scala/Test.scala -> Unit
+/home/shimo/WebSearch/src/main/scala/Test.scala -> WARN
+/home/shimo/WebSearch/src/main/scala/Test.scala -> _1
+/home/shimo/WebSearch/src/main/scala/Test.scala -> _2
+/home/shimo/WebSearch/src/main/scala/Test.scala -> any2ArrowAssoc
+/home/shimo/WebSearch/src/main/scala/Test.scala -> apache
+/home/shimo/WebSearch/src/main/scala/Test.scala -> apply
+/home/shimo/WebSearch/src/main/scala/Test.scala -> args
+/home/shimo/WebSearch/src/main/scala/Test.scala -> awaitTermination
+/home/shimo/WebSearch/src/main/scala/Test.scala -> checkpoint
+/home/shimo/WebSearch/src/main/scala/Test.scala -> com
+/home/shimo/WebSearch/src/main/scala/Test.scala -> createStream
+/home/shimo/WebSearch/src/main/scala/Test.scala -> exit
+/home/shimo/WebSearch/src/main/scala/Test.scala -> get
+/home/shimo/WebSearch/src/main/scala/Test.scala -> getRootLogger
+/home/shimo/WebSearch/src/main/scala/Test.scala -> isEmpty
+/home/shimo/WebSearch/src/main/scala/Test.scala -> java
+/home/shimo/WebSearch/src/main/scala/Test.scala -> kafka
+/home/shimo/WebSearch/src/main/scala/Test.scala -> kafkaStream
+/home/shimo/WebSearch/src/main/scala/Test.scala -> lang
+/home/shimo/WebSearch/src/main/scala/Test.scala -> length
+/home/shimo/WebSearch/src/main/scala/Test.scala -> lengthCompare
+/home/shimo/WebSearch/src/main/scala/Test.scala -> log4j
+/home/shimo/WebSearch/src/main/scala/Test.scala -> org
+/home/shimo/WebSearch/src/main/scala/Test.scala -> print
+/home/shimo/WebSearch/src/main/scala/Test.scala -> println
+/home/shimo/WebSearch/src/main/scala/Test.scala -> sc
+/home/shimo/WebSearch/src/main/scala/Test.scala -> scala
+/home/shimo/WebSearch/src/main/scala/Test.scala -> setAppName
+/home/shimo/WebSearch/src/main/scala/Test.scala -> setLevel
+/home/shimo/WebSearch/src/main/scala/Test.scala -> spark
+/home/shimo/WebSearch/src/main/scala/Test.scala -> sparkConf
+/home/shimo/WebSearch/src/main/scala/Test.scala -> ssc
+/home/shimo/WebSearch/src/main/scala/Test.scala -> start
+/home/shimo/WebSearch/src/main/scala/Test.scala -> storage
+/home/shimo/WebSearch/src/main/scala/Test.scala -> streaming
+/home/shimo/WebSearch/src/main/scala/Test.scala -> test
+/home/shimo/WebSearch/src/main/scala/Test.scala -> topics
+/home/shimo/WebSearch/src/main/scala/Test.scala -> unapplySeq
+/home/shimo/WebSearch/src/main/scala/Test.scala -> unary_!
+/home/shimo/WebSearch/src/main/scala/Test.scala -> unchecked
+/home/shimo/WebSearch/src/main/scala/Test.scala -> zkQuorum
 product stamps:
 2 items
-/home/shimo/spark-simple-app6/target/scala-2.10/classes/com/test/spark/KafkaWorker$.class -> lastModified(1562914804000)
-/home/shimo/spark-simple-app6/target/scala-2.10/classes/com/test/spark/KafkaWorker.class -> lastModified(1562914804000)
+/home/shimo/WebSearch/target/scala-2.10/classes/com/test/spark/KafkaWorker$.class -> lastModified(1563377679000)
+/home/shimo/WebSearch/target/scala-2.10/classes/com/test/spark/KafkaWorker.class -> lastModified(1563377679000)
 source stamps:
 1 items
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> hash(5657771b0aa85aa324cec9f1139e32d29cab5222)
+/home/shimo/WebSearch/src/main/scala/Test.scala -> hash(5657771b0aa85aa324cec9f1139e32d29cab5222)
 binary stamps:
 6 items
 /home/shimo/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1396501213000)
@@ -133,21 +133,21 @@ binary stamps:
 class names:
 6 items
 /home/shimo/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Logger
-/home/shimo/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.0.jar -> org.apache.spark.SparkContext
-/home/shimo/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.5.0.jar -> org.apache.spark.streaming.kafka.KafkaUtils
-/home/shimo/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.5.0.jar -> org.apache.spark.streaming.dstream.ReceiverInputDStream
-/home/shimo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Int
+/home/shimo/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.0.jar -> org.apache.spark.storage.StorageLevel$
+/home/shimo/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.5.0.jar -> org.apache.spark.streaming.kafka.KafkaUtils$
+/home/shimo/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.5.0.jar -> org.apache.spark.streaming.Milliseconds
+/home/shimo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Tuple2$
 /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar -> java.lang.Object
 internal apis:
 1 items
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC1PNaOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDGXEoF0AAZub3RpZnlzcQB+AAy23D7/dAAEd2FpdHNxAH4ADOXT5QV0AA0kYXNJbnN0YW5jZU9mc3EAfgAM+XuevnQABmVxdWFsc3NxAH4ADG3uE490AAxhc0luc3RhbmNlT2ZzcQB+AAxB59dLdAAMc3luY2hyb25pemVkc3EAfgAMyX5va3QADSRpc0luc3RhbmNlT2ZzcQB+AAx4/Bs8dAAEbWFpbnNxAH4ADE7qd6N0AAlub3RpZnlBbGxzcQB+AAwUOsTwdAAMaXNJbnN0YW5jZU9mc3EAfgAMpKBbjHQAC0thZmthV29ya2Vyc3EAfgAMItoHwXQAAj09c3EAfgAM8bDULXQABWNsb25lc3EAfgAMn+ykgHQACHRvU3RyaW5nc3EAfgAMD68gb3QAAiE9c3EAfgAMPMLlXHQACGdldENsYXNzc3EAfgAMbrEhsXQAAm5lc3EAfgAMVIg19nQAAmVxc3EAfgAM43EqzXQAAiMjc3EAfgAMiyQM7nQACGZpbmFsaXplc3EAfgAMRUKlsHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAGmNvbS50ZXN0LnNwYXJrLkthZmthV29ya2VydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AbHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ac1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYXNxAH4AcnQABUFycmF5cQB+AHh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcnQABlN0cmluZ3NxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCDc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+AJcAAAACc3EAfgBydAAGT2JqZWN0cQB+AJtzcQB+AHJ0AANBbnlxAH4AeHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACGNvbS50ZXN0c3EAfgCudAAOY29tLnRlc3Quc3BhcmtzcQB+AK50AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWvk+zgFdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANy9ob21lL3NoaW1vL3NwYXJrLXNpbXBsZS1hcHA2L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRWV3cbCqhaoyTOyfETnjLSnKtSIg==
+/home/shimo/WebSearch/src/main/scala/Test.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC1PNaOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDGXEoF0AAZub3RpZnlzcQB+AAy23D7/dAAEd2FpdHNxAH4ADOXT5QV0AA0kYXNJbnN0YW5jZU9mc3EAfgAM+XuevnQABmVxdWFsc3NxAH4ADG3uE490AAxhc0luc3RhbmNlT2ZzcQB+AAxB59dLdAAMc3luY2hyb25pemVkc3EAfgAMyX5va3QADSRpc0luc3RhbmNlT2ZzcQB+AAx4/Bs8dAAEbWFpbnNxAH4ADE7qd6N0AAlub3RpZnlBbGxzcQB+AAwUOsTwdAAMaXNJbnN0YW5jZU9mc3EAfgAMpKBbjHQAC0thZmthV29ya2Vyc3EAfgAMItoHwXQAAj09c3EAfgAM8bDULXQABWNsb25lc3EAfgAMn+ykgHQACHRvU3RyaW5nc3EAfgAMD68gb3QAAiE9c3EAfgAMPMLlXHQACGdldENsYXNzc3EAfgAMbrEhsXQAAm5lc3EAfgAMVIg19nQAAmVxc3EAfgAM43EqzXQAAiMjc3EAfgAMiyQM7nQACGZpbmFsaXplc3EAfgAMRUKlsHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAGmNvbS50ZXN0LnNwYXJrLkthZmthV29ya2VydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AbHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ac1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYXNxAH4AcnQABUFycmF5cQB+AHh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcnQABlN0cmluZ3NxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCDc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+AJcAAAACc3EAfgBydAAGT2JqZWN0cQB+AJtzcQB+AHJ0AANBbnlxAH4AeHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACGNvbS50ZXN0c3EAfgCudAAOY29tLnRlc3Quc3BhcmtzcQB+AK50AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWwAkiU6dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQALy9ob21lL3NoaW1vL1dlYlNlYXJjaC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUVld3GwqoWqMkzsnxE54y0pyrUiI=
 external apis:
 0 items
 source infos:
 1 items
-/home/shimo/spark-simple-app6/src/main/scala/Test.scala -> 
+/home/shimo/WebSearch/src/main/scala/Test.scala -> 
 AAAAAAAAAAA=
 compilations:
 1 items
-0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+T7OAV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANy9ob21lL3NoaW1vL3NwYXJrLXNpbXBsZS1hcHA2L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABbACSJTp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9ob21lL3NoaW1vL1dlYlNlYXJjaC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
