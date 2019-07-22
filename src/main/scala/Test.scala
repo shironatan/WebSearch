@@ -25,38 +25,55 @@ object KafkaWorker{
 		// val kafkaRDD = kafkaStream.map{case (null, value) => (value,1)}
 
 		// parse topic
-		val ParseRDD = kafkaStream.map{case (null,value) => parseTopic(value)}
-		//val ParseRDD = kafkaStream.map{case (null,value) => convertFluentToMap(value)}
-		val kafkaRDD = ParseRDD.map((_, 1)).reduceByKey(_ + _)
-		//println(kafkaRDD)
-		kafkaRDD.print()
+		// val ParseRDD = kafkaStream.map{case (null,value) => parseTopic(value)}
+		val ParseRDD = kafkaStream.flatMap{case(null,value) => {
+			val features : scala.collection.mutable.ArrayBuffer[String] = new collection.mutable.ArrayBuffer[String]()
+			features += parseMethod(value)
+			features += parseHost(value)
+			features += parseStatus(value)
+			(features)
+		}}
+
+		val kafkaRDD = ParseRDD.map((_, 1)).reduceByKey(_ + _).map{
+				case(word,count) => (count, word)
+			}.transform(_.sortByKey(false)).map {
+				case(count,word) => (word, count)
+			}
+	
+		//kafkaRDD.print()
 		ssc.checkpoint("/path/to/file/checkpoint")
 
 		// 表示
-		//kafkaRDD.foreachRDD { rdd =>
-		//	println("##Start %s ###".format(Calendar.getInstance.getTime.toString))
-		//	rdd.foreach(print)
-		//}
+		kafkaRDD.foreachRDD ( rdd => {
+			println("\n##Start %s ###".format(Calendar.getInstance.getTime.toString))
+			val path = rdd.collect()
+			path.foreach{case (value,count) => println("%s \t %s".format(value,count))}
+			println("##End %s ###".format(Calendar.getInstance.getTime.toString))
+		})
 		ssc.start()
 		ssc.awaitTermination()
 	}
-	// 
+	// fluent
 	case class FluentEvent(domain: String, host: String, server: String, ident: String, user: String, method: String, path: String, protocol: String, status: String, size: String, referer: String, agent: String, response_time: String, cookie: String, set_cookie: String)
-	// parse
-	//def parseNginxLtsv(record: String) = { LTSV.parseLine(record) }
 
 	// json
 	implicit val formats = DefaultFormats
-	// parse topic
-	def parseTopic(record: String) ={
+	
+	// parse method
+	def parseMethod(record: String) ={
 		var method = parse(record).extract[FluentEvent].method
-		var host = parse(record).extract[FluentEvent].host
-		method
+		(method)
 	}
 
-	// map
-	//def convertFluentToMap(record: String) = {
-	//	parseMethod(record)
-	//	parseHost(record)
-	//}
+	// parse Host
+	def parseHost(record: String) = {
+		var host = parse(record).extract[FluentEvent].host
+		(host)
+	}
+
+	// parse status
+	def parseStatus(record: String) ={
+		var status = parse(record).extract[FluentEvent].status
+		(status)
+	}
 }
