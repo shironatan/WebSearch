@@ -1,5 +1,5 @@
 import scala.util.Properties
-name := "spark-simple-app6"
+name := "WebSearch"
 version := "0.1"
 scalaVersion := "2.10.4"
 val sparkVersion = "1.5.0"
@@ -10,8 +10,7 @@ libraryDependencies ++= Seq(
 	"org.apache.spark" %% "spark-streaming" % sparkVersion % sparkDependencyScope,
 	"org.apache.spark" %% "spark-streaming-kafka" % "1.5.0",
 	"joda-time" % "joda-time" % "2.8.2",
-	"net.liftweb" %% "lift-json" % "2.5.1",
-	"com.github.seratch" % "ltsv4s_2.10" % "1.0.+"
+	"net.liftweb" %% "lift-json" % "2.5.1"
 )
 
 assemblyMergeStrategy in assembly := {

@@ -1,26 +1,26 @@
 [0m[[0minfo[0m] [0mUpdating {file:/home/shimo/WebSearch/}websearch...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: spark-simple-app6#spark-simple-app6_2.10;0.1[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#websearch_2.10;0.1[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40556bb8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b4670cf[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming-kafka_2.10;1.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-streaming-kafka_2.10;1.5.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-streaming-kafka_2.10;1.5.0[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-streaming-kafka_2.10;1.5.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.kafka#kafka_2.10;0.8.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.kafka#kafka_2.10;0.8.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -133,22 +133,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.8.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.8.2[0m
 [0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.8.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-json_2.10;2.5.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-json_2.10;2.5.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-json_2.10;2.5.1[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-json_2.10;2.5.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -206,42 +206,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.github.seratch#ltsv4s_2.10;1.0.+ ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.seratch#ltsv4s_2.10;1.0.+ {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.github.seratch#ltsv4s_2.10;1.0.+[0m
-[0m[[0minfo[0m] [0mResolving com.github.seratch#ltsv4s_2.10;1.0.+ ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.github.seratch#ltsv4s_2.10;1.0.+ {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.github.seratch#ltsv4s_2.10;1.0.+[0m
-[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.github.seratch#ltsv4s_2.10;1.0.+[0m
-[0m[[0mdebug[0m] [0m		tried /home/shimo/.ivy2/local/com.github.seratch/ltsv4s_2.10/[revision]/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.seratch#ltsv4s_2.10;1.0.+[0m
-[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.github.seratch#ltsv4s_2.10;1.0.+[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/github/seratch/ltsv4s_2.10/[revision]/ltsv4s_2.10-[revision].pom[0m
-[0m[[0mdebug[0m] [0m	listing revisions from maven-metadata: https://jcenter.bintray.com/com/github/seratch/ltsv4s_2.10/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for com.github.seratch#ltsv4s_2.10;1.0.+[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/github/seratch/ltsv4s_2.10/1.0.3/ltsv4s_2.10-1.0.3.pom (1.0.3)[0m
-[0m[[0mdebug[0m] [0m	default-cache: revision in cache: com.github.seratch#ltsv4s_2.10;1.0.3[0m
-[0m[[0mdebug[0m] [0m	found com.github.seratch#ltsv4s_2.10;1.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m	[1.0.3] com.github.seratch#ltsv4s_2.10;1.0.+[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.zookeeper#zookeeper;3.4.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -310,14 +285,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.101tec#zkclient;0.3->log4j#log4j;1.2.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -355,26 +330,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.zookeeper#zookeeper;3.4.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -443,14 +410,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.101tec#zkclient;0.3->log4j#log4j;1.2.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -488,24 +455,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.5.0 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.5.0[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.5.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.avro#avro-mapred;1.7.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.avro#avro-mapred;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -3555,14 +3514,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-streaming_2.10;1.5.0 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-streaming_2.10;1.5.0[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-streaming_2.10;1.5.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.apache.spark#spark-core_2.10;1.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.apache.spark#spark-core_2.10;1.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.apache.spark#spark-core_2.10;1.5.0 [compile->runtime(*)][0m
@@ -3577,19 +3536,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.zookeeper#zookeeper;3.4.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -3658,14 +3617,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.101tec#zkclient;0.3->log4j#log4j;1.2.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -3703,20 +3662,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->master(compile)][0m
@@ -6338,10 +6289,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.apache.spark#spark-core_2.10;1.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.apache.spark#spark-core_2.10;1.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
@@ -6354,18 +6305,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.zookeeper#zookeeper;3.4.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -6434,14 +6385,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.101tec#zkclient;0.3->log4j#log4j;1.2.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -6479,28 +6430,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.apache.kafka#kafka_2.10;0.8.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.zookeeper#zookeeper;3.4.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -6569,14 +6512,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.101tec#zkclient;0.3->log4j#log4j;1.2.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming-kafka_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming-kafka_2.10;1.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->joda-time#joda-time;2.8.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -6614,20 +6557,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.seratch#ltsv4s_2.10;1.0.+->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->com.github.seratch#ltsv4s_2.10;1.0.+ [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->net.liftweb#lift-json_2.10;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->master(compile)][0m
@@ -9240,10 +9175,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-core_2.10;1.5.0 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.apache.spark#spark-core_2.10;1.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.apache.spark#spark-core_2.10;1.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
@@ -9256,24 +9191,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.5.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.apache.spark#spark-streaming_2.10;1.5.0 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for spark-simple-app6#spark-simple-app6_2.10;0.1 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#websearch_2.10;0.1 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -9291,8 +9226,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
@@ -9305,18 +9240,17 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies spark-simple-app6#spark-simple-app6_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#websearch_2.10;0.1->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-streaming-kafka_2.10;1.5.0!spark-streaming-kafka_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.8.2!joda-time.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-json_2.10;2.5.1!lift-json_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.seratch#ltsv4s_2.10;1.0.3!ltsv4s_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.kafka#kafka_2.10;0.8.2.1!kafka_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.yammer.metrics#metrics-core;2.2.0!metrics-core.jar[0m
@@ -9450,19 +9384,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6249ms :: artifacts dl 74ms[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 compile produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 runtime produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 test produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 provided produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 optional produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 compile-internal produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 runtime-internal produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 test-internal produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 plugin produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 sources produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 docs produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 pom produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for spark-simple-app6#spark-simple-app6_2.10;0.1 scala-tool produced in /home/shimo/WebSearch/target/resolution-cache/reports/spark-simple-app6-spark-simple-app6_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6249ms resolve - 74ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5862ms :: artifacts dl 121ms[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 compile produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 runtime produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 test produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 provided produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 optional produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 compile-internal produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 runtime-internal produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 test-internal produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 plugin produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 sources produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 docs produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 pom produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#websearch_2.10;0.1 scala-tool produced in /home/shimo/WebSearch/target/resolution-cache/reports/default-websearch_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (5862ms resolve - 121ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

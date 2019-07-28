@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: ltsv4s
-Implementation-Version: 1.0.3
-Specification-Vendor: com.github.seratch
-Specification-Title: ltsv4s
-Implementation-Vendor-Id: com.github.seratch
-Specification-Version: 1.0.3
-Implementation-Vendor: com.github.seratch
-

@@ -1,15 +1,10 @@
 package com.test.spark
-import java.util.Date
 import java.util.Calendar
-import org.apache.kafka.clients.producer.{KafkaProducer, ProducerConfig, ProducerRecord}
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.kafka._
-import org.apache.spark.storage.StorageLevel
 import org.apache.log4j.{Level,Logger}
-import net.liftweb._
 import net.liftweb.json._
-import com.github.seratch.ltsv4s._
 
 object KafkaWorker{
 	def main(args: Array[String]){
@@ -22,10 +17,7 @@ object KafkaWorker{
 		val sparkConf = new SparkConf().setAppName("KafkaWorker")
 		val ssc = new StreamingContext(sparkConf,Milliseconds(5000))
 		val kafkaStream = KafkaUtils.createStream(ssc,zkQuorum,"default",Map(topics -> 1))
-		// val kafkaRDD = kafkaStream.map{case (null, value) => (value,1)}
 
-		// parse topic
-		// val ParseRDD = kafkaStream.map{case (null,value) => parseTopic(value)}
 		val ParseRDD = kafkaStream.flatMap{case(null,value) => {
 			val features : scala.collection.mutable.ArrayBuffer[String] = new collection.mutable.ArrayBuffer[String]()
 			features += parseMethod(value)
@@ -40,7 +32,6 @@ object KafkaWorker{
 				case(count,word) => (word, count)
 			}
 	
-		//kafkaRDD.print()
 		ssc.checkpoint("/path/to/file/checkpoint")
 
 		// 表示
@@ -56,7 +47,6 @@ object KafkaWorker{
 	// fluent
 	case class FluentEvent(domain: String, host: String, server: String, ident: String, user: String, method: String, path: String, protocol: String, status: String, size: String, referer: String, agent: String, response_time: String, cookie: String, set_cookie: String)
 
-	// json
 	implicit val formats = DefaultFormats
 	
 	// parse method
